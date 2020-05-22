@@ -1,0 +1,1 @@
+SELECT PI() * POWER (10,2)
