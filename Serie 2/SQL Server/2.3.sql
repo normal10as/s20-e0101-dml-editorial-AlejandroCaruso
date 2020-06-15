@@ -1,6 +1,7 @@
 USE editorial
 GO
-SELECT * FROM empleados
+SELECT * 
+FROM empleados
 SELECT nombre, apellido, cargo_id, nivel_cargo
 FROM empleados
 WHERE cargo_id > 9

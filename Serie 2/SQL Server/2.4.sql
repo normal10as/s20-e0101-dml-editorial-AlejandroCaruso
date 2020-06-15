@@ -1,6 +1,7 @@
 USE editorial
 GO
-SELECT * FROM ventas
+SELECT * 
+FROM ventas
 SELECT almacen_id, titulo, numero_orden, fecha_orden
 FROM ventas, titulos
 WHERE ventas.titulo_id = titulos.titulo_id
